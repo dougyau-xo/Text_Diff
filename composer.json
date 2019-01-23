@@ -20,14 +20,18 @@
     "time": "2017-11-11",
     "repositories": [
         {
-            "type": "pear",
-            "url": "https://pear.horde.org"
+            "type": "vcs",
+            "url": "https://github.com/dougyau-xo/Exception"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde/Util"
         }
     ],
     "require": {
         "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Util": "^2"
+        "horde/exception": "dev-master",
+        "horde/Horde_Util": "^2"
     },
     "suggest": {
         "pear-pear.horde.org/Horde_Cli": "^2.1",
